@@ -1,0 +1,49 @@
+form {
+  min-height: 100vh;
+  display: flex;
+  padding: 25px 0;
+  
+}
+
+.container{
+  background: #fff;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.labelDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.labelDiv label{
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.labelDiv input{
+  padding: 10px;
+  border-radius: 3px;
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  border: 1px solid #4d269d;
+  outline: none;
+  transition: 0.25s ease-in;
+}
+
+.labelDiv input:focus{
+  margin-top: 0px;
+}
+

@@ -1,0 +1,58 @@
+main{
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  max-width: 300px;
+}
+
+.container{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.tableInfo{
+  background:#fff;
+  margin-bottom: 25px;
+
+}
+
+
+.inputInfo{
+  grid-gap: 10px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 150px 1fr;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  
+
+}
+
+.inputInfo h3{
+  padding: 15px;
+  font-size: 15px;
+  border-right: 1px solid black;
+}
+
+.inputInfo:last-child {
+ 
+  border-bottom: 1px solid black;
+ 
+}
+
+.inputInfo p{
+  font-weight: 400;
+  
+}

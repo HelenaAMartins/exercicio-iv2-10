@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  background: #b28dff;
+}
+
+.button{
+  width: 50%;
+  margin: auto;
+  background-color: #ffce00;
+  color: #4d269d;
+  border: 0px;
+  font-weight: bolder;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.button:hover{
+  background-color: #ffa300;
+}
+
+.delete{
+ background-color: red;
+  color: #fff;
+}
